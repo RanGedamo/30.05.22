@@ -61,7 +61,8 @@
 //     document.getElementsByClassName(className)[i].innerText=text1
 //     }
 // }
-// printclass("ran",prompt("text?..."))
+// printclass("ran",prompt("text?"))
+
 
 
 // function printp() {
@@ -80,6 +81,8 @@
 // printname()
 
 
+
+
 // function userDate (){
 //     var username = prompt("enter name");
 //     var lastname = prompt("enter last name");
@@ -90,5 +93,52 @@
 //     }
 // }
 // userDate()
+
+
+
+
+// function printobj() {
+//     var obj = {
+//         moviename: prompt("movies options: חגיגה בסנוקר , לשחרר את שולי , צ'רלי וחצי , lucifer , never back down 1, naver back down 2, never back down 3, onward, popeye"),
+//         view: prompt("views?"),
+//         year: prompt("year?"),
+//     }
+//     var images = document.getElementById("imgs").src = obj.moviename + ".jpg";
+
+//     document.write("<h2>" + "Movie:  " + obj.moviename + "<br>" + "Views:  " + obj.view + "<br>" + "Year:  " + obj.year + "</h2>" + "<br>" + images)
+// }
+// printobj()
+
+
+// var objguest={
+//     name:prompt("name"),
+//     lname:prompt("last name"),
+//     email:prompt("email"),
+//     class:prompt("class")
+// }
+// document.write("<h1>"+objguest.name+"</h1>"+"<br>"+"<h2>"+objguest.lname+"</h2>"+"<br>"+"<h3>"+objguest.email+"</h3>"+"<br>"+"<h4>"+objguest.class+"</h4>")
+
+
+function printbuild() {
+const building = {
+    contractor:prompt("contractor?"),
+    CompanyName:prompt("Company Name?"),
+    Severalfloors:prompt("Several floors"),
+    Numberofapartments:prompt("Number of apartments")
+}
+document.write("<h3>"+contractor.building+"<br>"+CompanyName.building+"<br>"+Severalfloors.building+"<br>"+Numberofapartments.building+"</h3>")
+}
+const num = +prompt("enter number")
+for (var i = 0; i < num; i++) {
+    printbuild()
+}
+
+
+
+///שאלה 18 ///
+
+// function createStore(){
+
+// }
 
 
